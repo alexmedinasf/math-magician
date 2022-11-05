@@ -30,12 +30,11 @@ class Calculator extends Component {
     return obj;
   }
 
-
   render() {
     return (
       <div id="calculator">
- <CalculatorDisplay onDisplay={this.getDisplayInfo} onKeyEvent={this.handleChange} />
-  <CalculatorButtons onClickButtons={this.handleChange} />
+        <CalculatorDisplay onDisplay={this.getDisplayInfo} onKeyEvent={this.handleChange} />
+        <CalculatorButtons onClickButtons={this.handleChange} />
       </div>
     );
   }

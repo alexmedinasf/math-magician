@@ -29,7 +29,7 @@ class CalculatorButtons extends Component {
     });
     return (
       <div id="calculator-buttons">
-        {innerList} 
+        {innerList}
       </div>
     );
   }

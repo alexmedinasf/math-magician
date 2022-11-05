@@ -76,5 +76,4 @@ CalculatorDisplay.propTypes = {
   onKeyEvent: PropTypes.func.isRequired,
 };
 
-
 export default CalculatorDisplay;
