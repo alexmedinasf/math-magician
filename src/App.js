@@ -7,6 +7,7 @@ import Quote from './pages/Quote';
 import Navbar from './components/Navbar';
 
 function App() {
+  
   return (
     <Router>
       <Navbar />
