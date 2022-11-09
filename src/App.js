@@ -5,7 +5,6 @@ import Calculator from './components/Calculator';
 import Home from './pages/Home';
 import Quote from './pages/Quote';
 import Navbar from './components/Navbar';
-import NoMatch from './pages/NoMatch';
 
 function App() {
   return (
