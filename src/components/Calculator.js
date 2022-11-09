@@ -11,6 +11,7 @@ const Calculator = () => {
   });
 
   const handleChange = (input) => {
+   console.log(calculate(obj, input))
     setObj(calculate(obj, input));
     return obj;
   };
