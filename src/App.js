@@ -6,8 +6,7 @@ import Home from './pages/Home';
 import Quote from './pages/Quote';
 import Navbar from './components/Navbar';
 
-function App(){
-
+function App() {
   return (
     <Router>
       <Navbar />
