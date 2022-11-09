@@ -20,7 +20,7 @@ const Quote = () => {
   }, []);
 
   return (
-    <div className="Quote">
+    <div className="quote">
       <blockquote>{quote.quote}</blockquote>
       <div>{quote.author}</div>
     </div>
